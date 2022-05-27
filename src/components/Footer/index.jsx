@@ -28,11 +28,11 @@ const Footer = () => {
                     </Row>
                     <Row>
                         <Col className="mt-3 mx-auto">
-                            <img src="images/Home/icon_facebook.png" className="img-fluid mt-2" width="35px" />
-							<img src="images/Home/icon_instagram.png" className="img-fluid mt-2 ms-1" width="35px"/>
-							<img src="images/Home/icon_twitter.png" className="img-fluid mt-2 ms-1" width="35px"/>
-							<img src="images/Home/icon_mail.png" className="img-fluid mt-2 ms-1" width="35px" />
-							<img src="images/Home/icon_twitch.png" className="img-fluid mt-2 ms-1" width="35px"/>
+                            <img alt="" src="images/Home/icon_facebook.png" className="img-fluid mt-2" width="35px" />
+							<img alt="" src="images/Home/icon_instagram.png" className="img-fluid mt-2 ms-1" width="35px"/>
+							<img alt="" src="images/Home/icon_twitter.png" className="img-fluid mt-2 ms-1" width="35px"/>
+							<img alt="" src="images/Home/icon_mail.png" className="img-fluid mt-2 ms-1" width="35px" />
+							<img alt="" src="images/Home/icon_twitch.png" className="img-fluid mt-2 ms-1" width="35px"/>
                         </Col>
                     </Row>
                 </Col>
