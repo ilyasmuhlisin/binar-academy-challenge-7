@@ -1,18 +1,11 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './pages/index';
-import './App.css';
-// import { useRoutes } from 'react-router';
-// import {Route, Routes} from 'react-router-dom'
-
+import Home from './Pages/Home.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-
-    </div>
-  );
-}
+    <>
+    <Home />
+    </>
+  )
+};
 
 export default App;
