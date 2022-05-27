@@ -1,0 +1,50 @@
+.header {
+  background-color: #f1f3ff;
+  position: fixed;
+  width: 100%;
+  z-index: 125;
+}
+.container{
+  display: flex;
+  flex-dirextion: row;
+  justify-content: between;
+  padding: 25px 0px;
+}
+.box1{
+  display: flex;
+  flex-dirextion: row;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+}
+.menu{
+  justify-content: space-around;
+  padding-right: 2rem;
+}
+.item{
+  padding-right: 25px;
+  color: #000;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.btn {
+  background: #5cb85f;
+  border-color: #5cb85f;
+  width: 81px;
+  height: 36px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}

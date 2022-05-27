@@ -1,0 +1,73 @@
+.hero {
+  height: 500px;
+  background-color: #f1f3ff;
+}
+.container {
+  display: flex;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+.box1 {
+  margin-top: 177px;
+  margin-right: 32px;
+  width: 50%;
+}
+h1 {
+  width: 568px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #000000;
+}
+p {
+  width: 468px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.btn {
+  background: #5cb85f;
+  border-color: #5cb85f;
+  width: 145px;
+  height: 36px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+.box2 {
+  position: relative;
+  width: 50%;
+  right: 0;
+}
+.bgHero {
+  position: absolute;
+  width: 704px;
+  height: 243px;
+  background: #0d28a6;
+  border-radius: 60px 0px 0px 0px;
+  bottom: 0;
+  z-index: 1;
+  /* left: 70px; */
+}
+.imgHero {
+  width: 704px;
+  height: 407px;
+  z-index: 100;
+  position: relative;
+  margin-top: 97px;
+  /* left: 70px; */
+}
