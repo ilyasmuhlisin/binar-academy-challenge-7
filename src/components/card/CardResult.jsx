@@ -65,36 +65,38 @@ class CardResult extends Component {
                         {/* {manufacture}/{model} */}
                         {`${data.manufacture} / ${data.model}`}
                       </Card.Title>
-                      <Card.Text className="fw-bold mt-3">Rp. / Day</Card.Text>
+                      <Card.Text className="fw-bold mt-3">
+                        Rp. {data.rentPerDay} / Day
+                      </Card.Text>
                       <Card.Text className="mt-3" style={{ height: "90px" }}>
                         {/* {description} */}
                         {data.description}
                       </Card.Text>
                       <Card.Text>
                         {/* <i className="fw-bold mt-3"></i> */}
-                        <img
+                        {/* <img
                           src="images/fi_settings.png"
                           alt=""
                           className="me-2"
-                        />
+                        /> */}
                         {data.transmission}
                       </Card.Text>
                       <Card.Text>
                         {/* <i className="fw-bold mt-3"></i> */}
-                        <img
+                        {/* <img
                           src="images/fi_users.png"
                           alt=""
                           className="me-2"
-                        />
+                        /> */}
                         {data.capacity} Orang
                       </Card.Text>
                       <Card.Text className="mt-3">
-                        <img
+                        {/* <img
                           src="images/Home/fi_calendar.png"
                           alt=""
                           className="me-2"
-                        />
-                        {/* {year} */}
+                        /> */}
+                        {data.year}
                       </Card.Text>
                     </Card.Body>
 
